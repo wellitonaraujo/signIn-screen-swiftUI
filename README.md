@@ -1,5 +1,5 @@
 Sign In with SwiftUI
 <div>
-<img width="400" height:"550" alt="Screenshot 2023-01-23 at 19 44 55" src="https://user-images.githubusercontent.com/42000136/214326273-5bd4f59b-d6a5-40ad-93ac-5fb2de7f26ee.png">
-<img width="400" height:"550" alt="Screenshot 2023-01-23 at 19 45 04" src="https://user-images.githubusercontent.com/42000136/214326298-5a341381-a818-4625-8761-26aed7dda28f.png">
+  <img width="505" alt="Screenshot 2023-01-24 at 11 52 12" src="https://user-images.githubusercontent.com/42000136/214326953-1b7cbad5-59f8-4a8d-8905-d375f132a9d8.png">
+  <img width="505" alt="Screenshot 2023-01-24 at 11 52 06" src="https://user-images.githubusercontent.com/42000136/214326959-d7a81420-5650-459b-a1fd-53aa9eed56ca.png">
 </div>
