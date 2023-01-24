@@ -32,7 +32,6 @@ struct WelcomeScreenView: View {
                                 .shadow(color: Color.black.opacity(0.08), radius: 60, x: 0.0, y: 16)
                                 .padding(.vertical)
                         })
-                    .navigationBarHidden(true)
                     
                     HStack {
                         Text("New around here?")
@@ -40,7 +39,6 @@ struct WelcomeScreenView: View {
                             .foregroundColor(Color("PrimaryColor"))
                             .fontWeight(.bold)
                     }
-                    
                 }
                 .padding()
             }

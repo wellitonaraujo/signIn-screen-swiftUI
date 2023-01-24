@@ -9,6 +9,22 @@ import SwiftUI
 
 struct SignInScreenView: View {
     @State private var email: String = ""
+    @Environment(\.presentationMode) var presentationMode: Binding
+    
+    var btnBack : some View { Button(action: {
+           self.presentationMode.wrappedValue.dismiss()
+       }) {
+           HStack {
+               Image(systemName: "chevron.backward")
+                   .aspectRatio(contentMode: .fit)
+                   .foregroundColor(Color("PrimaryColor"))
+                   .fontWeight(.semibold)
+               Text("Back")
+                   .foregroundColor(Color("PrimaryColor"))
+           }
+           }
+       }
+    
     var body: some View {
         ZStack {
             Color(.white).edgesIgnoringSafeArea(.all)
@@ -44,8 +60,9 @@ struct SignInScreenView: View {
                 
                 Text("Read out Terms & Conditions")
                     .foregroundColor(Color("PrimaryColor"))
-                
             }
+            .navigationBarBackButtonHidden(true)
+            .navigationBarItems(leading: btnBack)
             .padding()
         }
     }
